@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>stone</title>
+</head>
+
+<body itemscope>
+    <main>
+        <fieldset class="container">
+            <div class="row">
+                <div class="col-12" style="text-align: center">
+                    <legend>Calculo de juros STONE <i class="fa-solid fa-paper-plane"></i></legend><br>
+                    <label>
+                        <font size="3px">Valor a vista da venda</font>
+                    </label><br>
+                    <input type="text" id="avista" placeholder="apenas números, ex: 10500" value="" autofocus
+                        required><br><br>
+                    <label>
+                        <font size="3px">Número de parcela</font>
+                    </label><br>
+                    <input type="text" id="parcela" placeholder="ex: 12" value="" required><br><br>
+                    <button onclick="calcular()">Calcular</button><br><br><br>
+                    <label>
+                        <font size="3px">Cobrar do cliente:</font>
+                    </label><br>
+                    <input type="text" id="cobrar" value=""><br><br>
+                </div>
+            </div>
+        </fieldset>
+    </main>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
